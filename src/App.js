@@ -8,10 +8,16 @@ import Post from "./Components/Infos.js"
 class App extends Component {
   render() {
         ///ON CREER UN OBJET TYPE PAGE AUQUEL ON ENVOIT LES DONNEES NECESSAIRE
+   
     return (
+        
         <div>
-      
-        <Page page={{nom : "Dujet", prenom : "Virgile" , contenu : "merde"}}/>
+
+        
+        
+        <Profil  />
+        
+        
      
         </div>
    

@@ -1,0 +1,60 @@
+.change{
+
+    margin-left: 60%;
+    margin-bottom: 20px;
+    margin-top: 10%;
+    height: 50px;
+    width: 130px;
+        
+
+    
+    
+}
+
+.bloc1{
+    
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 5%;
+    border-radius: 10px;
+
+}
+
+.bloc2
+{
+    
+}
+
+.bouton
+{
+ margin-left: 70%
+     
+    
+    
+    
+}
+
+.press
+{
+    margin-left: 10px;
+    margin-top: 10%;
+    width : 30%;
+}
+
+.ecrituregauche
+{
+    float: left;
+    margin-left: 10%;
+}
+
+.ecrituredroite
+{
+    float: right;
+    margin-right: 30%;
+}
+
+.image
+{
+    text-align: center;
+}

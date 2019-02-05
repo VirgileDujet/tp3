@@ -2,17 +2,27 @@ import React from "react";
 
 class Infos extends React.Component{
 
+
     render()
     {
 
 
         return(
-
-            <div>
-            <p>{this.props.inf.nom}</p>
-            <p>{this.props.inf.prenom}</p>
+<div>
+            <div class="image">     
+            <img src={this.props.pp} alt='imageComponent'/>
             </div>
-
+            
+            <div class="ecrituregauche">
+            <p>Nom : {this.props.nom} </p>        
+            <p>Date de naissance :{this.props.birthday}</p>
+            </div>
+            
+            <div class="ecrituredroite">
+            <p>Prenom: {this.props.prenom} </p> 
+            </div>
+            
+</div>
         )
     }
 

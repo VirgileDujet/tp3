@@ -11,7 +11,7 @@ class Post extends React.Component{
         return(
 
             <div> 
-            <p>{this.props.post.contenu}</p>
+            <p>{this.props.contenu}</p>
             </div>
 
         )
