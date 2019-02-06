@@ -13,7 +13,9 @@ class App extends Component {
         
         <div>
 
-        
+            <div class="image">     
+            <p><img src='ppv.png' alt='imageComonent'/></p>
+            </div>
         
         <Profil  />
         

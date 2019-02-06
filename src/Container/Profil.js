@@ -4,6 +4,8 @@ import Post from "../Components/Post.js"
 import '../Profil.css';
 
 
+
+
 class Profil extends React.Component{
   constructor(props) {
     super(props);
@@ -11,12 +13,12 @@ class Profil extends React.Component{
     nom : "virgile",
     prenom : "dujet",
     birthday : "14/01/1997",
-    pp :"ppv.png",
+    pp : "https://www.royalcanin.fr/wp-content/uploads/chien-grand.png",
     contenu : "J adore le Web",
     color : "blue"
     };
   }
-    
+
     ///Foction de changement de couleur
     changecolor()
     {
@@ -36,26 +38,26 @@ class Profil extends React.Component{
             {
                 this.setState({color : "blue"})
             }
-   
-        
-    }
-    
 
-    
-   
+
+    }
+
+
+
+
     render()
     {
 ///UN PROFIL CONTIENT UN INFOS ET UN POST
-///ON CREER LES DEUX OBJETS , DONT LES PROPS DECOULE DE L OBJET PAGE
+
 
         return(
-<div > 
+<div >
             <div class="bouton">
-            <button class="press" onClick={() => this.setState({nom: 'Dujet', prenom :"Virgile" , birthday :"14/01/1997", pp : "ppv.png", contenu :"J adore le Web"})} >
+            <button class="press" onClick={() => this.setState({nom: 'Dujet', prenom :"Virgile" , birthday :"14/01/1997", pp :"1", contenu :"J adore le Web"})} >
             {"Virgile"}
             </button>
 
-            <button  class ="press" onClick={() => this.setState({nom: 'Cadeo', prenom :"Sam" , birthday : "18/05/1800", pp : "pps.png", contenu :"J aime moyennement le Web"})} >
+            <button  class ="press" onClick={() => this.setState({nom: 'Cadeo', prenom :"Sam" , birthday : "18/05/1800", pp : "https://www.royalcanin.fr/wp-content/uploads/chien-grand.png", contenu :"J aime moyennement le Web"})} >
             {"Sam"}
             </button>
 
@@ -65,17 +67,17 @@ class Profil extends React.Component{
             </div>
 
             <div class= "bloc1" style={{background:this.state.color}}>
-            <Infos  nom ={this.state.nom} prenom ={this.state.prenom} birthday ={this.state.birthday}/>
-                
+            <Infos  nom ={this.state.nom} prenom ={this.state.prenom} birthday ={this.state.birthday} pp= {this.state.pp}/>
+
             <button class="change" onClick={() => this.changecolor()}>
                     {"change de style"}
                     </button>
             </div>
-            
-            <div>
+
+            <div class="bloc2">
             <Post contenu={this.state.contenu}/>
             </div>
- 
+
 </div>
 
         )

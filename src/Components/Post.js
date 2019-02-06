@@ -6,7 +6,7 @@ class Post extends React.Component{
 
     render()
     {
-///ON VEUT LA DONNE DE L OBJET TYPE POST (ici post)
+
 
         return(
 
