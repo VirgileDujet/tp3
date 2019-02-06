@@ -10,8 +10,10 @@ class Post extends React.Component{
 
         return(
 
-            <div> 
+            <div>
             <p>{this.props.contenu}</p>
+
+
             </div>
 
         )

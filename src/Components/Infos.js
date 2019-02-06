@@ -1,5 +1,5 @@
 import React from "react";
-import CACA from "../Components/ppv.png"
+import '../Profil.css';
 
 class Infos extends React.Component{
 
@@ -13,8 +13,8 @@ class Infos extends React.Component{
 
         return(
       <div>
-            <div class="image">
-            <img src={this.props.pp} alt='imageComonent'/>
+            <div >
+            <img className="image" src={this.props.pp} alt='imageComonent'/>
             </div>
 
             <div class="ecrituregauche">
