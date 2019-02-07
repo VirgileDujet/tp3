@@ -4,7 +4,7 @@ import '../Profil.css';
 class Infos extends React.Component{
 
 
-    value= this.props.pp;
+
 
 
     render()

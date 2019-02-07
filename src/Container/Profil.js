@@ -16,15 +16,10 @@ class Profil extends React.Component{
     pp : "http://recueil-de-png.r.e.pic.centerblog.net/o/aa58ac5d.png",
     contenu : "J adore le Web",
     color : "#66ff33",
-    compteur1 : '0',
-    compteur2 : "0",
-    compteur3 : "0",
+
 
     };
   }
-
-
-
 
     ///Foction de changement de couleur
     changecolor()
